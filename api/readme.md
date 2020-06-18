@@ -17,16 +17,16 @@ then submit with body of
 key: images, type: file
 and select an image
 
-# also possible directly with
+- also possible directly with
 `python detect.py --images "data/images/dog.jpg, data/images/office.jpg"`
 
-# webcam
+- webcam
 `python detect_video.py --video 0`
 
-# video file
+- video file
 `python detect_video.py --video data/video/paris.mp4 --weights ./weights/yolov3.tf`
 
-# video file with output saved (can save webcam like this too)
+- video file with output saved (can save webcam like this too)
 `python detect_video.py --video path_to_file.mp4 --output ./detections/output.avi`
 
 
