@@ -11,4 +11,4 @@
 - activate
 `python webcam_detect.py`
 
-
+~1 FPS on CPU, ~15 on GPU
