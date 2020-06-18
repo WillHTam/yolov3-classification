@@ -1,0 +1,10 @@
+name: webcam_env
+channels:
+  - conda-forge
+dependencies:
+  - tensorflow=1.15
+  - keras
+  - matplotlib
+  - pillow
+  - numpy
+  - opencv
